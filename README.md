@@ -30,26 +30,22 @@ Then, generate the lists of wave files ID for training and tessting using the ``
       <td>list of validation files ID</td>
   </tr>
   <tr>
-    <th>num_gruCNN_layers</th>
-    <td>numbering of gruCNN layers employed</td>
+    <th>n_channels</th>
+    <td>number of channels in each layer</td>
   </tr>
 <tr>
-    <th>fft_bin_size</th>
-    <td>size of the FFT window</td>
+    <th>dilations</th>
+    <td>dilation rate starting from the begining layer</td>
   </tr>
   <tr>
-    <th>num_input_frames</th>
-      <td> number of input/output frames being recurrently modelled for training</td>
+    <th>target_length</th>
+      <td> total samples generated in a single forward epoch</td>
   </tr>
     <tr>
-    <th>filter_size_gruCNN</th>
-    <td>size of gruCNN kernals </td>
+    <th>filter_length</th>
+    <td>convolutiona filter width: 3 for non-causal architecture </td>
   </tr>
-    <tr>
-    <th>num_channel_gruCNN</th>
-    <td>channels at each layer of gruCNN </td>
-  </tr>
-<tr>
+  <tr>
     <th>Regain</th>
       <td>The level to which wave files are RMS normalised </td>
   </tr>
