@@ -1,8 +1,7 @@
 # wSSDRC: a WaveNet based intelligibility modification for listening confort in noise
-This is a Tensorflow implementation of the ```gruCNN-SE``` architecture suggested in <a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2119.pdf"> this paper</a>, where we build a recurrent feature extraction approach to model speech recurrency at the feature extraction stage itself. 
-This is advantageous as the model can capture the locall recurrency pattern of the speech, contrasting to the traditional recurrency modelling  <a href="https://www.microsoft.com/en-us/research/uploads/prod/2018/02/ZhaoZararTashevLee_ICASSP_2018.pdf">[1]</a>, <a href="https://web.cse.ohio-state.edu/~wang.77/papers/Tan-Wang1.interspeech18.pdf">[2]</a> , where the recurrency being modelled independtly from the front-end feature extraction. This is an inital attempt towards building higher models motivated from this startegy.
+This is a Tensorflow implementation of the ```gruCNN-SE``` architecture suggested in <a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2119.pdf"> this paper</a>, where we have suggested a neural speech enrichment approach for intelligibility improvement in noise. The model was trained to generate the same intelligibility gain as the signal processing SSDRC model suggested <a href="https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_0635.pdf">in here</a>.
 
-Few samples from the trained model are displayed <a href="https://www.csd.uoc.gr/~shifaspv/IEEE_Letter-demo">here</a>, along with the other models.
+Few samples from the trained model are displayed <a href="https://www.csd.uoc.gr/~shifaspv/IS2018-demo">here</a>, along with the other models.
 
 ## Brief description of the model architecture
 ![1 1](https://user-images.githubusercontent.com/33422097/84161101-9708fc00-aa77-11ea-9b55-573f05b6bd81.jpg)
