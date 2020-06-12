@@ -3,10 +3,6 @@ This is a Tensorflow implementation of the ```gruCNN-SE``` architecture suggeste
 
 Few samples from the trained model are displayed <a href="https://www.csd.uoc.gr/~shifaspv/IS2018-demo">here</a>, along with the other models.
 
-## Brief description of the model architecture
-![1 1](https://user-images.githubusercontent.com/33422097/84161101-9708fc00-aa77-11ea-9b55-573f05b6bd81.jpg)
-<br>
-As can be seen in the figure, the ```gruCNN-SE``` is a feature domain enhancement model that takes noisy spectra as the input and extracts features recurrenctly over time. To better understand the exact layer wise details please refer to our paper <a href="https://arxiv.org/pdf/2006.05233.pdf">at here</a> .
 
 ## Implemented On
 Python - 3.6.8 <br>
