@@ -10,7 +10,7 @@ Tensorflow - 1.14.0 <br>
 
 We required few more very common Python packages, check the ```required.txt``` file and install if you don't have.
 ## Data set
-The model displayed on the paper was trained on the manually created data set with clean speech from <a href="https://datashare.is.ed.ac.uk/handle/10283/1942">here</a>. You may download the clean and noisy speech from there, and extract them to ```./data/NSDTSEA``` directory. 
+The model displayed on the paper was trained on the manually created data set with clean speech from <a href="https://datashare.is.ed.ac.uk/handle/10283/1942">here</a>. The model training was done on the intelligibility improved samples from SSDRC model, since don't have the right to publish that code, you may please use your own target samples.
 
 Then, generate the lists of wave files ID for training and tessting using the ```./data/generate_wave_id_list.py```, and confirm that the names match to the ones in ```./config/config_params.json```
 
@@ -74,7 +74,7 @@ Trained models will be saved to the ```./saved_models``` directory
 
 ## Testing the model
 
-Once you have trained a model,
+You can use the trained model in ```./saved_model``` direcory, or your own model, if you have managed to train the model,
 Go to the ```./src``` folder, and compile the ```generate.sh``` file with first argument as the ```model_id```. 
 
 ```
