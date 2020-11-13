@@ -1,5 +1,5 @@
 # wSSDRC: a WaveNet based intelligibility modification for improving listening comfort in noise
-This is a Tensorflow implementation of the ```wSSDRC``` architecture suggested in <a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2119.pdf"> this paper</a>, where we have suggested a neural speech enrichment approach for intelligibility improvement in noise. The model was trained to generate the same intelligibility gain as the signal processing SSDRC model suggested <a href="https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_0635.pdf">in here</a>.
+This is a Tensorflow implementation of the ```wSSDRC``` architecture suggested in <a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2119.pdf"> this paper</a>, where we presented a neural speech enrichment approach for intelligibility improvement in noise. The model was trained to generate the same intelligibility gain as the signal processing SSDRC model suggested <a href="https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_0635.pdf">in here</a>.
 
 Few samples from the trained model are displayed <a href="https://www.csd.uoc.gr/~shifaspv/IS2018-demo">here</a>.
 
