@@ -70,8 +70,8 @@ Trained models will be saved to the ```./saved_models``` directory
 
 ## Testing the model
 
-You can use the trained model in ```./saved_model``` directory, or your own model, if you have managed to train the model.
-Go to the ```./src``` folder, and compile the ```generate.sh``` file with first argument as the ```model_id```, like 1, 2, etc. 
+You can use the trained model; move the files starting with the name 'wavenet' into the directory ```./saved_model/1```.
+Go to the ```./src``` folder, and compile the ```generate.sh``` file with first argument as the ```model_id```, 1. 
 
 ```
 ./generate.sh model_id
