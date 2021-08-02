@@ -10,7 +10,7 @@ Tensorflow - 1.14.0 <br>
 
 We required few more very common Python packages, check the ```required.txt``` file and install if you don't have.
 ## Data set
-The model displayed was trained on the clean samples from <a href="https://datashare.is.ed.ac.uk/handle/10283/1942">here</a>. While training, the SSDRC modified samples were set as the target. Since I don't have the right to publish that code, you may please set any intelligible speech samples as the output.
+The model displayed was trained on the clean samples from <a href="https://datashare.is.ed.ac.uk/handle/10283/1942">here</a>. While training, the SSDRC modified samples were set as the target. Since I don't have the right to publish that code, you may please set any intelligible speech samples as the target (however, it must be time-aligned).
 
 If you want to train, generate the lists of wave files ID for training and tessting running the ```./data/generate_wave_id_list.py```, and confirm that the names match to the ones in ```./config/config_params.json```
 
